@@ -1,3 +1,16 @@
+"""
+    Python has 60+ types of exceptions.
+    FileNotFoundError - File specified does not exist
+    IndexError - Index out of bound
+    KeyError - Key doesn't exist
+    NameError - Variable name doesn't exist in local or global scope
+    ValueError - Value is wrong type
+"""
+
+#    Try and except allows to exscape from crash
+
+
+
 num1 = 10
 num2 = 0
 
