@@ -1,4 +1,4 @@
-# By default all member variables and methods are pubic by default in python
+#PUBLIC : All member variables and methods are public by default in Python.
 
 
 class Jar:
@@ -9,10 +9,16 @@ class Jar:
         self.content = content
 
     def empty(self):
-        print('empth the jar...')
+        print('empty the jar...')
         self.content = None
 
 
+
 myJar = Jar()
-myJar.content = 'sugar'
+myJar.content = "salt"
+print(myJar.content)
+
+
+myJar.empty()
+myJar.fill('sugar')
 print(myJar.content)

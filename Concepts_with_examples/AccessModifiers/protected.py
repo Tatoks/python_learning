@@ -1,4 +1,5 @@
 # if you want make a method or variable private, use _ before the name
+# PROTECTED : protected member is (in C++ and Java) accessible only from within the class and it’s subclasses
 
 
 class Jar:
@@ -19,6 +20,3 @@ myJar.fill('sugar')
 
 # If you try accessing _content from outside, you'll get an error
 print(myJar._content)
-
-
-

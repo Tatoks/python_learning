@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+#A dictionary is a collection which is unordered, changeable and indexed.
+#In Python dictionaries are written with curly brackets, and they have keys and values.
+
 # Key Value Pairs
 mydict = {'a': 'apple',
           'b': 'ball',

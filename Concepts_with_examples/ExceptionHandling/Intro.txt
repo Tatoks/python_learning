@@ -1,0 +1,102 @@
+Errors can occur at run time and these are called exceptions. Thus Errors detected during your program execution are called exceptions.
+
+Exceptions occur, for example when you try to open a file and it does not exist then (FileNotFoundError),
+say for example if you are trying to divide a number by zero (ZeroDivisionError),
+say for example when you are trying to import a module which is not found then (ModuleNotFoundError) etc.
+
+
+Basic examples of Python run time errors:
+·         division by zero
+
+·         performing an operation on incompatible types
+
+·         using an identifier which has not been defined
+
+·         accessing a list element, dictionary value or object attribute which doesn’t exist
+
+·         trying to access a file which doesn’t exist
+
+
+
+Common Exception Errors
+
+IOError (Input Output Error) – If the file cannot be opened
+
+ImportError – If Python cannot find the module
+
+ValueError – Raised when the user hits the interrupt key (normally ctrl+c or delete)
+
+EOFError (End of File Error) – Raised when one of the built-in functions (input() or raw_input()) hits an end-of-file condition (EOF) without reading any data.
+
+
+
+Read here for more built-in exception classes:
+These are some of the built-in exception classes that are already defined for the generic cases.
+
+Exception Class
+
+Event
+
+IOError
+
+It gets raised when an input/ output operation fails
+
+Arithmetic Error
+
+It gets raised  when numeric calculations fail
+
+Floating Point Error
+
+It gets raised  when a floating-point calculation fails
+
+Zero Division Error
+
+It gets raised  when division or modulo by zero takes place for all numeric types
+
+Assertion Error
+
+It gets raised  when the assert statement fails
+
+Overflow Error
+
+It gets raised  when result of an arithmetic operation is too large to be represented
+
+Import Error
+
+It gets raised  when the imported module is not found
+
+Index Error
+
+It gets raised  when index of a sequence is out of range
+
+Keyboard Interrupt
+
+It gets raised  when the user interrupts program execution, usually by pressing (Ctrl+c)
+
+Indentation Error
+
+It gets raised  when there is incorrect indentation
+
+Syntax Error
+
+It gets raised  by parser when syntax error is encountered
+
+Key Error
+
+It gets raised  when the specified key is not found in the dictionary
+
+Name Error
+
+It gets raised  when an identifier is not found in the local or global namespace
+
+Type Error
+
+It gets raised  when a function or operation is applied to an object of incorrect type
+
+Value Error
+
+It gets raised  when a function gets argument of correct type but improper value
+
+Runtime Error
+
+It gets raised  when a generated error does not fall into any category
